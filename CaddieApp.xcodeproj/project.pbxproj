@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5E132532DFCB11A0021404D /* CaddieAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E132522DFCB11A0021404D /* CaddieAppApp.swift */; };
+		A5E132552DFCB11A0021404D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E132542DFCB11A0021404D /* ContentView.swift */; };
+		A5E132572DFCB11C0021404D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5E132562DFCB11C0021404D /* Assets.xcassets */; };
+		A5E1325A2DFCB11C0021404D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5E132592DFCB11C0021404D /* Preview Assets.xcassets */; };
+		A5E132642DFCB11C0021404D /* CaddieAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E132632DFCB11C0021404D /* CaddieAppTests.swift */; };
+		A5E1326E2DFCB11C0021404D /* CaddieAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E1326D2DFCB11C0021404D /* CaddieAppUITests.swift */; };
+		A5E132702DFCB11C0021404D /* CaddieAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E1326F2DFCB11C0021404D /* CaddieAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5E132602DFCB11C0021404D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5E132472DFCB11A0021404D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5E1324E2DFCB11A0021404D;
+			remoteInfo = CaddieApp;
+		};
+		A5E1326A2DFCB11C0021404D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5E132472DFCB11A0021404D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5E1324E2DFCB11A0021404D;
+			remoteInfo = CaddieApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A5E1324F2DFCB11A0021404D /* CaddieApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaddieApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5E132522DFCB11A0021404D /* CaddieAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaddieAppApp.swift; sourceTree = "<group>"; };
+		A5E132542DFCB11A0021404D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A5E132562DFCB11C0021404D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5E132592DFCB11C0021404D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A5E1325F2DFCB11C0021404D /* CaddieAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaddieAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5E132632DFCB11C0021404D /* CaddieAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaddieAppTests.swift; sourceTree = "<group>"; };
+		A5E132692DFCB11C0021404D /* CaddieAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaddieAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5E1326D2DFCB11C0021404D /* CaddieAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaddieAppUITests.swift; sourceTree = "<group>"; };
+		A5E1326F2DFCB11C0021404D /* CaddieAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaddieAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5E1324C2DFCB11A0021404D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5E1325C2DFCB11C0021404D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5E132662DFCB11C0021404D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5E132462DFCB11A0021404D = {
+			isa = PBXGroup;
+			children = (
+				A5E132512DFCB11A0021404D /* CaddieApp */,
+				A5E132622DFCB11C0021404D /* CaddieAppTests */,
+				A5E1326C2DFCB11C0021404D /* CaddieAppUITests */,
+				A5E132502DFCB11A0021404D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5E132502DFCB11A0021404D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5E1324F2DFCB11A0021404D /* CaddieApp.app */,
+				A5E1325F2DFCB11C0021404D /* CaddieAppTests.xctest */,
+				A5E132692DFCB11C0021404D /* CaddieAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5E132512DFCB11A0021404D /* CaddieApp */ = {
+			isa = PBXGroup;
+			children = (
+				A5E132522DFCB11A0021404D /* CaddieAppApp.swift */,
+				A5E132542DFCB11A0021404D /* ContentView.swift */,
+				A5E132562DFCB11C0021404D /* Assets.xcassets */,
+				A5E132582DFCB11C0021404D /* Preview Content */,
+			);
+			path = CaddieApp;
+			sourceTree = "<group>";
+		};
+		A5E132582DFCB11C0021404D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A5E132592DFCB11C0021404D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A5E132622DFCB11C0021404D /* CaddieAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				A5E132632DFCB11C0021404D /* CaddieAppTests.swift */,
+			);
+			path = CaddieAppTests;
+			sourceTree = "<group>";
+		};
+		A5E1326C2DFCB11C0021404D /* CaddieAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A5E1326D2DFCB11C0021404D /* CaddieAppUITests.swift */,
+				A5E1326F2DFCB11C0021404D /* CaddieAppUITestsLaunchTests.swift */,
+			);
+			path = CaddieAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5E1324E2DFCB11A0021404D /* CaddieApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5E132732DFCB11C0021404D /* Build configuration list for PBXNativeTarget "CaddieApp" */;
+			buildPhases = (
+				A5E1324B2DFCB11A0021404D /* Sources */,
+				A5E1324C2DFCB11A0021404D /* Frameworks */,
+				A5E1324D2DFCB11A0021404D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CaddieApp;
+			productName = CaddieApp;
+			productReference = A5E1324F2DFCB11A0021404D /* CaddieApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A5E1325E2DFCB11C0021404D /* CaddieAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5E132762DFCB11C0021404D /* Build configuration list for PBXNativeTarget "CaddieAppTests" */;
+			buildPhases = (
+				A5E1325B2DFCB11C0021404D /* Sources */,
+				A5E1325C2DFCB11C0021404D /* Frameworks */,
+				A5E1325D2DFCB11C0021404D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5E132612DFCB11C0021404D /* PBXTargetDependency */,
+			);
+			name = CaddieAppTests;
+			productName = CaddieAppTests;
+			productReference = A5E1325F2DFCB11C0021404D /* CaddieAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A5E132682DFCB11C0021404D /* CaddieAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5E132792DFCB11C0021404D /* Build configuration list for PBXNativeTarget "CaddieAppUITests" */;
+			buildPhases = (
+				A5E132652DFCB11C0021404D /* Sources */,
+				A5E132662DFCB11C0021404D /* Frameworks */,
+				A5E132672DFCB11C0021404D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5E1326B2DFCB11C0021404D /* PBXTargetDependency */,
+			);
+			name = CaddieAppUITests;
+			productName = CaddieAppUITests;
+			productReference = A5E132692DFCB11C0021404D /* CaddieAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5E132472DFCB11A0021404D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					A5E1324E2DFCB11A0021404D = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					A5E1325E2DFCB11C0021404D = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = A5E1324E2DFCB11A0021404D;
+					};
+					A5E132682DFCB11C0021404D = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = A5E1324E2DFCB11A0021404D;
+					};
+				};
+			};
+			buildConfigurationList = A5E1324A2DFCB11A0021404D /* Build configuration list for PBXProject "CaddieApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5E132462DFCB11A0021404D;
+			productRefGroup = A5E132502DFCB11A0021404D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5E1324E2DFCB11A0021404D /* CaddieApp */,
+				A5E1325E2DFCB11C0021404D /* CaddieAppTests */,
+				A5E132682DFCB11C0021404D /* CaddieAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5E1324D2DFCB11A0021404D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5E1325A2DFCB11C0021404D /* Preview Assets.xcassets in Resources */,
+				A5E132572DFCB11C0021404D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5E1325D2DFCB11C0021404D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5E132672DFCB11C0021404D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5E1324B2DFCB11A0021404D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5E132552DFCB11A0021404D /* ContentView.swift in Sources */,
+				A5E132532DFCB11A0021404D /* CaddieAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5E1325B2DFCB11C0021404D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5E132642DFCB11C0021404D /* CaddieAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5E132652DFCB11C0021404D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5E132702DFCB11C0021404D /* CaddieAppUITestsLaunchTests.swift in Sources */,
+				A5E1326E2DFCB11C0021404D /* CaddieAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5E132612DFCB11C0021404D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5E1324E2DFCB11A0021404D /* CaddieApp */;
+			targetProxy = A5E132602DFCB11C0021404D /* PBXContainerItemProxy */;
+		};
+		A5E1326B2DFCB11C0021404D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5E1324E2DFCB11A0021404D /* CaddieApp */;
+			targetProxy = A5E1326A2DFCB11C0021404D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A5E132712DFCB11C0021404D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A5E132722DFCB11C0021404D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5E132742DFCB11C0021404D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CaddieApp/Preview Content\"";
+				DEVELOPMENT_TEAM = LK6FDT4VB5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.laurawhicker.CaddieApp.CaddieApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5E132752DFCB11C0021404D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CaddieApp/Preview Content\"";
+				DEVELOPMENT_TEAM = LK6FDT4VB5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.laurawhicker.CaddieApp.CaddieApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A5E132772DFCB11C0021404D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LK6FDT4VB5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.laurawhicker.CaddieApp.CaddieAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CaddieApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CaddieApp";
+			};
+			name = Debug;
+		};
+		A5E132782DFCB11C0021404D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LK6FDT4VB5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.laurawhicker.CaddieApp.CaddieAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CaddieApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CaddieApp";
+			};
+			name = Release;
+		};
+		A5E1327A2DFCB11C0021404D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LK6FDT4VB5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.laurawhicker.CaddieApp.CaddieAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CaddieApp;
+			};
+			name = Debug;
+		};
+		A5E1327B2DFCB11C0021404D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LK6FDT4VB5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.laurawhicker.CaddieApp.CaddieAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CaddieApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5E1324A2DFCB11A0021404D /* Build configuration list for PBXProject "CaddieApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5E132712DFCB11C0021404D /* Debug */,
+				A5E132722DFCB11C0021404D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5E132732DFCB11C0021404D /* Build configuration list for PBXNativeTarget "CaddieApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5E132742DFCB11C0021404D /* Debug */,
+				A5E132752DFCB11C0021404D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5E132762DFCB11C0021404D /* Build configuration list for PBXNativeTarget "CaddieAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5E132772DFCB11C0021404D /* Debug */,
+				A5E132782DFCB11C0021404D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5E132792DFCB11C0021404D /* Build configuration list for PBXNativeTarget "CaddieAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5E1327A2DFCB11C0021404D /* Debug */,
+				A5E1327B2DFCB11C0021404D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5E132472DFCB11A0021404D /* Project object */;
+}
