@@ -14,6 +14,17 @@
 		A5E132642DFCB11C0021404D /* CaddieAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E132632DFCB11C0021404D /* CaddieAppTests.swift */; };
 		A5E1326E2DFCB11C0021404D /* CaddieAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E1326D2DFCB11C0021404D /* CaddieAppUITests.swift */; };
 		A5E132702DFCB11C0021404D /* CaddieAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E1326F2DFCB11C0021404D /* CaddieAppUITestsLaunchTests.swift */; };
+		A5E1327D2DFCB1E60021404D /* AddClubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E1327C2DFCB1E60021404D /* AddClubView.swift */; };
+		A5E1327F2DFCB4F60021404D /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E1327E2DFCB4F60021404D /* LocationManager.swift */; };
+		A5E132802DFCB4F60021404D /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E1327E2DFCB4F60021404D /* LocationManager.swift */; };
+		A5E132812DFCB4F60021404D /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E1327E2DFCB4F60021404D /* LocationManager.swift */; };
+		A5E132832DFCBCCC0021404D /* RecordShotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E132822DFCBCCC0021404D /* RecordShotView.swift */; };
+		A5E132842DFCBCCC0021404D /* RecordShotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E132822DFCBCCC0021404D /* RecordShotView.swift */; };
+		A5E132852DFCBCCC0021404D /* RecordShotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E132822DFCBCCC0021404D /* RecordShotView.swift */; };
+		A5E132872DFCD42E0021404D /* ShotDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E132862DFCD42E0021404D /* ShotDetailView.swift */; };
+		A5E132892DFCD5A80021404D /* ShotListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E132882DFCD5A80021404D /* ShotListView.swift */; };
+		A5E1328A2DFCD5A80021404D /* ShotListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E132882DFCD5A80021404D /* ShotListView.swift */; };
+		A5E1328B2DFCD5A80021404D /* ShotListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E132882DFCD5A80021404D /* ShotListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +55,11 @@
 		A5E132692DFCB11C0021404D /* CaddieAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaddieAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5E1326D2DFCB11C0021404D /* CaddieAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaddieAppUITests.swift; sourceTree = "<group>"; };
 		A5E1326F2DFCB11C0021404D /* CaddieAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaddieAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A5E1327C2DFCB1E60021404D /* AddClubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddClubView.swift; sourceTree = "<group>"; };
+		A5E1327E2DFCB4F60021404D /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		A5E132822DFCBCCC0021404D /* RecordShotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordShotView.swift; sourceTree = "<group>"; };
+		A5E132862DFCD42E0021404D /* ShotDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShotDetailView.swift; sourceTree = "<group>"; };
+		A5E132882DFCD5A80021404D /* ShotListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShotListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +90,11 @@
 		A5E132462DFCB11A0021404D = {
 			isa = PBXGroup;
 			children = (
+				A5E132882DFCD5A80021404D /* ShotListView.swift */,
+				A5E132862DFCD42E0021404D /* ShotDetailView.swift */,
+				A5E132822DFCBCCC0021404D /* RecordShotView.swift */,
+				A5E1327E2DFCB4F60021404D /* LocationManager.swift */,
+				A5E1327C2DFCB1E60021404D /* AddClubView.swift */,
 				A5E132512DFCB11A0021404D /* CaddieApp */,
 				A5E132622DFCB11C0021404D /* CaddieAppTests */,
 				A5E1326C2DFCB11C0021404D /* CaddieAppUITests */,
@@ -257,8 +278,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5E1327F2DFCB4F60021404D /* LocationManager.swift in Sources */,
 				A5E132552DFCB11A0021404D /* ContentView.swift in Sources */,
+				A5E1327D2DFCB1E60021404D /* AddClubView.swift in Sources */,
+				A5E132832DFCBCCC0021404D /* RecordShotView.swift in Sources */,
+				A5E132892DFCD5A80021404D /* ShotListView.swift in Sources */,
 				A5E132532DFCB11A0021404D /* CaddieAppApp.swift in Sources */,
+				A5E132872DFCD42E0021404D /* ShotDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +292,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5E132802DFCB4F60021404D /* LocationManager.swift in Sources */,
+				A5E132842DFCBCCC0021404D /* RecordShotView.swift in Sources */,
+				A5E1328A2DFCD5A80021404D /* ShotListView.swift in Sources */,
 				A5E132642DFCB11C0021404D /* CaddieAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +305,9 @@
 			files = (
 				A5E132702DFCB11C0021404D /* CaddieAppUITestsLaunchTests.swift in Sources */,
 				A5E1326E2DFCB11C0021404D /* CaddieAppUITests.swift in Sources */,
+				A5E1328B2DFCD5A80021404D /* ShotListView.swift in Sources */,
+				A5E132812DFCB4F60021404D /* LocationManager.swift in Sources */,
+				A5E132852DFCBCCC0021404D /* RecordShotView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +457,7 @@
 				DEVELOPMENT_TEAM = LK6FDT4VB5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationUsageDescription = "This app needs your location to measure golf shots.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -454,6 +487,7 @@
 				DEVELOPMENT_TEAM = LK6FDT4VB5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationUsageDescription = "This app needs your location to measure golf shots.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
